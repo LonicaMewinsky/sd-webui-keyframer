@@ -5,4 +5,5 @@ Beta. Script accepts multiple images, plots them on a grid, generates against th
 - Adjust rows and columns until image is most square and within size limits you can handle.
 - Set max dimensions to constrain generated sheet within your known limits.
 - Press "generate sheet." Image will populate.
+   - Empty spaces in grid will be populated with repeats (black space ruins generation).
 - Press "generate" in img2img. Images will be sent to default directory.
