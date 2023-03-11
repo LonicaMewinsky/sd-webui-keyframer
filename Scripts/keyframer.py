@@ -1,7 +1,6 @@
 import modules.scripts as scripts
 import modules.images
 import gradio as gr
-import numpy as np
 from PIL import Image
 from modules.processing import Processed, process_images
 
@@ -12,9 +11,6 @@ def cl8(num):
         return round(num - rem)
     else:
         return round(num + (8 - rem))
-    
-from PIL import Image, ImageDraw
-import math
 
 def normalize_size(images):
     refimage = images[0]
