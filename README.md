@@ -9,4 +9,5 @@ Beta. Script accepts multiple images, plots them on a grid, generates against th
 - Press "generate sheet." Image will populate.
    - Empty spaces in grid will be populated with repeats (black space ruins generation).
 - Press "generate" in img2img. Images will be sent to default directory.
+
 ![image](https://user-images.githubusercontent.com/93007558/224556800-47ac4610-7603-4c36-a7c2-66b3e6b3091d.png)
