@@ -107,8 +107,8 @@ class Script(scripts.Script):
                             with gr.Column():
                                 gen_rows = gr.Slider(2, 20, 8, step=2, label="Grid rows", interactive=True)
                                 gen_cols = gr.Slider(2, 20, 8, step=2, label="Grid columns", interactive=True)
-                                gen_maxwidth = gr.Slider(64, 4000, 1280, step=8, label="Maximum width override", interactive=True)
-                                gen_maxheight = gr.Slider(64, 4000, 1280, step=8, label="Maximum height override", interactive=True)
+                                gen_maxwidth = gr.Slider(64, 3992, 2048, step=8, label="Maximum generation width", interactive=True, elem_id="maxwidth")
+                                gen_maxheight = gr.Slider(64, 3992, 2048, step=8, label="Maximum generation height", interactive=True, elem_id="maxheight")
                             with gr.Column():
                                 info_width = gr.Number(label="width", interactive=False)
                                 info_height = gr.Number(label="height", interactive=False)
