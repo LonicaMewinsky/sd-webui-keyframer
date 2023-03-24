@@ -15,8 +15,8 @@ def cl8(num):
 def normalize_size(images):
     refimage = images[0]
     refimage = refimage.resize((cl8(refimage.width), cl8(refimage.height)), Image.Resampling.LANCZOS)
-    return_images = [refimage]
-    for i in range(len(images[1:])):
+    return_images = []
+    for i in range(len(images)):
         if images[i].size != refimage.size:
             images[i] = images[i].resize(refimage.size, Image.Resampling.LANCZOS)
         return_images.append(images[i])
